@@ -1,0 +1,9 @@
+{
+  "licenseId": "header2",
+  "name": "",
+  "licenseText": "",
+  "standardLicenseHeader": "",
+  "standardLicenseTemplate": "<<var;name=\"source\";original=\"Academic Free License\";match=\".+\">> Licensed under <<var;name=\"source\";original=\"Academic Free License\";match=\".+\">>.",
+  "standardLicenseHeaderTemplate": "",
+  "seeAlso": []
+}

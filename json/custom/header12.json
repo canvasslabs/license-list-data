@@ -1,0 +1,9 @@
+{
+  "licenseId": "header12",
+  "name": "",
+  "licenseText": "",
+  "standardLicenseHeader": "",
+  "standardLicenseTemplate": "<<beginOptional>> %%<<endOptional>> <<var;name=\"filename\";original=\"pig.sty\";match=\".+\">>\n\n<<beginOptional>> %%<<endOptional>> Copyright <<var;name=\"copyright\";original=\"2001 M. Y. Name\";match=\".+\">>\n\n<<beginOptional>> %<<endOptional>> This program can redistributed and/or modified under the terms\n\n<<beginOptional>> %<<endOptional>> of the LaTeX Project Public License Distributed from CTAN\n\n<<beginOptional>> %<<endOptional>> archives in directory macros/latex/base/lppl.txt; <<beginOptional>>either<<beginOptional>>\n\n<<beginOptional>> %<<endOptional>> version 1 <<beginOptional>>of the License, or (at your option) any later version<<endOptional>>.",
+  "standardLicenseHeaderTemplate": "",
+  "seeAlso": []
+}

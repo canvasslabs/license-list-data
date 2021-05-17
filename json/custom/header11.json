@@ -1,0 +1,9 @@
+{
+  "licenseId": "header11",
+  "name": "",
+  "licenseText": "",
+  "standardLicenseHeader": "",
+  "standardLicenseTemplate": "<<beginOptional>> %%<<endOptional>> <<var;name=\"filename\";original=\"pig.dtx\";match=\".+\">>\n\n<<beginOptional>> %%<<endOptional>> Copyright <<var;name=\"copyright\";original=\"2005 M. Y. Name\";match=\".+\">>\n\n<<beginOptional>> %<<endOptional>>\n\n<<beginOptional>> %<<endOptional>> This work may be distributed and/or modified under the\n\n<<beginOptional>> %<<endOptional>> conditions of the LaTeX Project Public License, either version 1.3\n\n<<beginOptional>> %<<endOptional>> of this license or (at your option) any later version.\n\n<<beginOptional>> %<<endOptional>> The latest version of this license is in\n\n<<beginOptional>> %<<endOptional>> http://www.latex-project.org/lppl.txt\n\n<<beginOptional>> %<<endOptional>> and version 1.3 or later is part of all distributions of LaTeX\n\n<<beginOptional>> %<<endOptional>> version 2005/12/01 or later.\n\n<<beginOptional>> %<<endOptional>>\n\n<<beginOptional>> %<<endOptional>> This work has the LPPL maintenance status \" <<var;name=\"status\";original=\"maintained\";match=\"author-maintained|unmaintained|maintained\">> \".\n\n<<beginOptional>> %<<endOptional>>\n\n<<beginOptional>> %<<endOptional>> The Current Maintainer of this work is <<var;name=\"maintainer\";original=\"M. Y. Name\";match=\".+\">> .\n\n<<beginOptional>> %<<endOptional>>\n\n<<beginOptional>> %<<endOptional>> This work consists of the <<var;name=\"filenames\";original=\"files pig.dtx and pig.ins  % and the derived file pig.sty\";match=\".+\">> .",
+  "standardLicenseHeaderTemplate": "",
+  "seeAlso": []
+}
