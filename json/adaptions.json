@@ -4,7 +4,8 @@
     {
       "licenseId": "389-exception",
       "notes": [
-        "remove GPL-2.0 from text"
+        "remove GPL-2.0 from text",
+        null
       ]
     },
     {

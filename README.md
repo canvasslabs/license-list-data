@@ -1,5 +1,78 @@
 # License List Data
 
+## To add new custom licenses
+1. Initialize custom json file:
+```
+python update_license_json.py SHORTNAME init_custom {exc, lic} 
+```
+Fill in the short name of the license, and choose between "license"("lic") or "exception"("exc")
+2. Go to `json/SHORTNAME/` to see all the fields to fill in:\
+   For license:\
+   `name`: full name of the license (**required**)\
+   `licenseText`: license text\
+   `standardLicenseHeader`: license header text\
+   `standardLicenseTemplate`: license template (**required**)\
+   `standardLicenseHeaderTemplate`: license header template\
+   `seeAlso`: reference websites\
+   \
+   for exceptions:\
+   `name`: full name of the license\
+   `licenseExceptionText`: exception text\
+   `licenseExceptionTemplate`: exception template\
+   `seeAlso`: reference websites
+   
+***Note***: LID only reads `name`, `standardLicenseTemplate`, `licenseExceptionTemplate` and `seeAlso`.
+So if you don't add other fields, it will not affect LID.
+
+3. After filling in all the fields, add custom json file:
+```
+python update_license_json.py SHORTNAME add_custom
+```
+
+## To make adaptions to licenses:
+1. Initialize adaption json file:
+```
+python update_license_json.py SHORTNAME init_adaption {exc, lic} [-E -T -H -L -T -S -N]
+```
+Fill in the short name of the license, and choose between "license"("lic") or "exception"("exc").
+Optional arguments are:\
+For license:\
+   `-L`: `licenseText`: license text\
+   `-H`: `standardLicenseHeader`: license header text\
+   `-T`: `standardLicenseTemplate`: license template\
+   `-N`: `standardLicenseHeaderTemplate`: license header template\
+   `-S`: `seeAlso`: reference websites\
+You can choose the fields that you want to make adaptions to.
+example usage:
+```
+python update_license_json.py SHORTNAME init_adaption lic -LHTNS
+```
+```
+python update_license_json.py SHORTNAME init_adaption lic -T
+```
+   for exceptions:\
+   `-E`: `licenseExceptionText`: exception text\
+   `-T`: `licenseExceptionTemplate`: exception template\
+   `-S`: `seeAlso`: reference websites\
+You can choose the fields that you want to make adaptions to.
+example usage:
+```
+python update_license_json.py SHORTNAME init_adaption exc -ETS
+```
+```
+python update_license_json.py SHORTNAME init_adaption exc -T
+```
+***Note***: LID only reads `name`, `standardLicenseTemplate`, `licenseExceptionTemplate` and `seeAlso`.
+So if you don't change other fields, it will not affect LID.
+
+2. After filling in all the fields, add adaption json file:
+```
+python update_license_json.py SHORTNAME add_adaption {exc, lic}
+```
+
+
+Old SPDX README
+==========================
 Please do not submit pull requests or issues against this generated data repository.  We appreciate all contributions, see [the contributing document](CONTRIBUTING.md) for information on requesting new licenses, reporting issues or contributing pull requests related to this repository.
 
 ## Preview of License List Data

@@ -17,7 +17,13 @@
     },
     {
       "reference": [],
-      "name": "",
+      "name": "Header 13",
+      "licenseId": "header13",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 14",
       "licenseId": "header14",
       "seeAlso": []
     }
