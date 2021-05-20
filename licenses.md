@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2082469
+The following licenses have been generated from the license list version 3.13
 
 ## Licenses with Short Idenifiers
 
@@ -57,6 +57,7 @@ The following licenses have been generated from the license list version 2082469
 | BSD 3-Clause Clear License                                                   | [BSD-3-Clause-Clear][]                   |      | Y         |
 | Lawrence Berkeley National Labs BSD variant license                          | [BSD-3-Clause-LBNL][]                    | Y    |           |
 | BSD 3-Clause Modification                                                    | [BSD-3-Clause-Modification][]            |      |           |
+| BSD 3-Clause No Military License                                             | [BSD-3-Clause-No-Military-License][]     |      |           |
 | BSD 3-Clause No Nuclear License                                              | [BSD-3-Clause-No-Nuclear-License][]      |      |           |
 | BSD 3-Clause No Nuclear License 2014                                         | [BSD-3-Clause-No-Nuclear-License-2014][] |      |           |
 | BSD 3-Clause No Nuclear Warranty                                             | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |           |
@@ -109,12 +110,13 @@ The following licenses have been generated from the license list version 2082469
 | Creative Commons Attribution Share Alike 2.1 Japan                           | [CC-BY-SA-2.1-JP][]                      |      |           |
 | Creative Commons Attribution Share Alike 2.5 Generic                         | [CC-BY-SA-2.5][]                         |      |           |
 | Creative Commons Attribution Share Alike 3.0 Unported                        | [CC-BY-SA-3.0][]                         |      |           |
-| Creative Commons Attribution-Share Alike 3.0 Austria                         | [CC-BY-SA-3.0-AT][]                      |      |           |
+| Creative Commons Attribution Share Alike 3.0 Austria                         | [CC-BY-SA-3.0-AT][]                      |      |           |
 | Creative Commons Attribution Share Alike 4.0 International                   | [CC-BY-SA-4.0][]                         |      | Y         |
 | Creative Commons Public Domain Dedication and Certification                  | [CC-PDDC][]                              |      |           |
 | Creative Commons Zero v1.0 Universal                                         | [CC0-1.0][]                              |      | Y         |
 | Common Development and Distribution License 1.0                              | [CDDL-1.0][]                             | Y    | Y         |
 | Common Development and Distribution License 1.1                              | [CDDL-1.1][]                             |      |           |
+| Common Documentation License 1.0                                             | [CDL-1.0][]                              |      |           |
 | Community Data License Agreement Permissive 1.0                              | [CDLA-Permissive-1.0][]                  |      |           |
 | Community Data License Agreement Sharing 1.0                                 | [CDLA-Sharing-1.0][]                     |      |           |
 | CeCILL Free Software License Agreement v1.0                                  | [CECILL-1.0][]                           |      |           |
@@ -570,6 +572,7 @@ The following licenses have been generated from the license list version 2082469
 [BSD-3-Clause-Clear]: text/BSD-3-Clause-Clear.txt
 [BSD-3-Clause-LBNL]: text/BSD-3-Clause-LBNL.txt
 [BSD-3-Clause-Modification]: text/BSD-3-Clause-Modification.txt
+[BSD-3-Clause-No-Military-License]: text/BSD-3-Clause-No-Military-License.txt
 [BSD-3-Clause-No-Nuclear-License]: text/BSD-3-Clause-No-Nuclear-License.txt
 [BSD-3-Clause-No-Nuclear-License-2014]: text/BSD-3-Clause-No-Nuclear-License-2014.txt
 [BSD-3-Clause-No-Nuclear-Warranty]: text/BSD-3-Clause-No-Nuclear-Warranty.txt
@@ -628,6 +631,7 @@ The following licenses have been generated from the license list version 2082469
 [CC0-1.0]: text/CC0-1.0.txt
 [CDDL-1.0]: text/CDDL-1.0.txt
 [CDDL-1.1]: text/CDDL-1.1.txt
+[CDL-1.0]: text/CDL-1.0.txt
 [CDLA-Permissive-1.0]: text/CDLA-Permissive-1.0.txt
 [CDLA-Sharing-1.0]: text/CDLA-Sharing-1.0.txt
 [CECILL-1.0]: text/CECILL-1.0.txt
