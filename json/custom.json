@@ -1,0 +1,32 @@
+{
+  "licenseListVersion": "2082469",
+  "licenses": [
+    {
+      "reference": "http://www.sgi.com/software/opensource/glx/license.html",
+      "name": "GLX Public License 1.0",
+      "licenseId": "GLX-1.0",
+      "seeAlso": [
+        "http://web.archive.org/web/20061104002735/www.sgi.com/products/software/opensource/glx/glxlicense.txt"
+      ]
+    },
+    {
+      "reference": [],
+      "name": "Header 1",
+      "licenseId": "header1",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 13",
+      "licenseId": "header13",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 14",
+      "licenseId": "header14",
+      "seeAlso": []
+    }
+  ],
+  "releaseDate": "2021-05-04"
+}

@@ -1,0 +1,79 @@
+{
+  "licenseListVersion": "2082469",
+  "adaptions": [
+    {
+      "licenseId": "389-exception",
+      "notes": [
+        "remove GPL-2.0 from text",
+        null
+      ]
+    },
+    {
+      "licenseId": "CLISP-exception-2.0",
+      "notes": [
+        "remove GPL-2.0 from text"
+      ]
+    },
+    {
+      "licenseId": "ImageMagick",
+      "notes": [
+        "add header template"
+      ]
+    },
+    {
+      "licenseId": "APSL-2.0",
+      "notes": [
+        "add header template"
+      ]
+    },
+    {
+      "licenseId": "RPL-1.1",
+      "notes": [
+        "add header template"
+      ]
+    },
+    {
+      "licenseId": "RPL-1.5",
+      "notes": [
+        "add header template"
+      ]
+    },
+    {
+      "licenseId": "SNIA",
+      "notes": [
+        "add header template"
+      ]
+    },
+    {
+      "licenseId": "Watcom-1.0",
+      "notes": [
+        "add header template"
+      ]
+    },
+    {
+      "licenseId": "NPL-1.0",
+      "notes": [
+        "add header template"
+      ]
+    },
+    {
+      "licenseId": "APL-1.0",
+      "notes": [
+        "add header template"
+      ]
+    },
+    {
+      "licenseId": "OSET-PL-2.1",
+      "notes": [
+        "add header template"
+      ]
+    },
+    {
+      "licenseId": "ErlPL-1.1",
+      "notes": [
+        "add header template"
+      ]
+    }
+  ],
+  "releaseDate": "2021-05-04"
+}
