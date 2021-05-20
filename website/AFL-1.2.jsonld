@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "1",
-    "timestamp" : "2021-05-04 - 21:53:53",
+    "timestamp" : "2021-05-20 - 17:04:55",
     "url" : "http://wayback.archive.org/web/20021204204652/http://www.opensource.org/licenses/academic.php"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-05-04 - 21:53:52",
+    "timestamp" : "2021-05-20 - 17:04:53",
     "url" : "http://opensource.linux-mirror.org/licenses/afl-1.2.txt"
   }, {
     "@id" : "http://spdx.org/licenses/AFL-1.2",
@@ -68,6 +68,10 @@
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
@@ -90,10 +94,6 @@
     },
     "standardLicenseHeader" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"

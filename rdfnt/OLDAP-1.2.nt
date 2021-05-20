@@ -7,12 +7,12 @@
 <http://spdx.org/licenses/OLDAP-1.2> <http://www.w3.org/2000/01/rdf-schema#comment> "This license was released 1 September 1998. This license was issued four time, but only with formatting differences." .
 <http://spdx.org/licenses/OLDAP-1.2> <http://spdx.org/rdf/terms#isOsiApproved> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://spdx.org/licenses/OLDAP-1.2> <http://spdx.org/rdf/terms#name> "Open LDAP Public License v1.2" .
-<http://spdx.org/licenses/OLDAP-1.2> <http://spdx.org/rdf/terms#crossRef> _:B2661383dX2D6dbcX2D4205X2Dbc17X2De943a5622c5e .
-_:B2661383dX2D6dbcX2D4205X2Dbc17X2De943a5622c5e <http://spdx.org/rdf/terms#timestamp> "2021-05-04 - 22:02:00" .
-_:B2661383dX2D6dbcX2D4205X2Dbc17X2De943a5622c5e <http://spdx.org/rdf/terms#order> "0"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:B2661383dX2D6dbcX2D4205X2Dbc17X2De943a5622c5e <http://spdx.org/rdf/terms#url> "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=42b0383c50c299977b5893ee695cf4e486fb0dc7" .
-_:B2661383dX2D6dbcX2D4205X2Dbc17X2De943a5622c5e <http://spdx.org/rdf/terms#match> "false" .
-_:B2661383dX2D6dbcX2D4205X2Dbc17X2De943a5622c5e <http://spdx.org/rdf/terms#isWayBackLink> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-_:B2661383dX2D6dbcX2D4205X2Dbc17X2De943a5622c5e <http://spdx.org/rdf/terms#isValid> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-_:B2661383dX2D6dbcX2D4205X2Dbc17X2De943a5622c5e <http://spdx.org/rdf/terms#isLive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-_:B2661383dX2D6dbcX2D4205X2Dbc17X2De943a5622c5e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spdx.org/rdf/terms#CrossRef> .
+<http://spdx.org/licenses/OLDAP-1.2> <http://spdx.org/rdf/terms#crossRef> _:Bb481ca34X2D1802X2D4972X2D858dX2D5a5ad7137a69 .
+_:Bb481ca34X2D1802X2D4972X2D858dX2D5a5ad7137a69 <http://spdx.org/rdf/terms#timestamp> "2021-05-20 - 16:53:11" .
+_:Bb481ca34X2D1802X2D4972X2D858dX2D5a5ad7137a69 <http://spdx.org/rdf/terms#order> "0"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Bb481ca34X2D1802X2D4972X2D858dX2D5a5ad7137a69 <http://spdx.org/rdf/terms#url> "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=42b0383c50c299977b5893ee695cf4e486fb0dc7" .
+_:Bb481ca34X2D1802X2D4972X2D858dX2D5a5ad7137a69 <http://spdx.org/rdf/terms#match> "false" .
+_:Bb481ca34X2D1802X2D4972X2D858dX2D5a5ad7137a69 <http://spdx.org/rdf/terms#isWayBackLink> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:Bb481ca34X2D1802X2D4972X2D858dX2D5a5ad7137a69 <http://spdx.org/rdf/terms#isValid> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:Bb481ca34X2D1802X2D4972X2D858dX2D5a5ad7137a69 <http://spdx.org/rdf/terms#isLive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:Bb481ca34X2D1802X2D4972X2D858dX2D5a5ad7137a69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spdx.org/rdf/terms#CrossRef> .

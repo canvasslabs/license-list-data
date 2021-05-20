@@ -7,12 +7,12 @@
 <http://spdx.org/licenses/APSL-1.1> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://www.opensource.apple.com/source/IOSerialFamily/IOSerialFamily-7/APPLE_LICENSE" .
 <http://spdx.org/licenses/APSL-1.1> <http://spdx.org/rdf/terms#isOsiApproved> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://spdx.org/licenses/APSL-1.1> <http://spdx.org/rdf/terms#isDeprecatedLicenseId> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spdx.org/licenses/APSL-1.1> <http://spdx.org/rdf/terms#crossRef> _:B0ca8839bX2D454bX2D4922X2D95b9X2Dc46422514cf4 .
-_:B0ca8839bX2D454bX2D4922X2D95b9X2Dc46422514cf4 <http://spdx.org/rdf/terms#timestamp> "2021-05-04 - 21:59:25" .
-_:B0ca8839bX2D454bX2D4922X2D95b9X2Dc46422514cf4 <http://spdx.org/rdf/terms#order> "0"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:B0ca8839bX2D454bX2D4922X2D95b9X2Dc46422514cf4 <http://spdx.org/rdf/terms#url> "http://www.opensource.apple.com/source/IOSerialFamily/IOSerialFamily-7/APPLE_LICENSE" .
-_:B0ca8839bX2D454bX2D4922X2D95b9X2Dc46422514cf4 <http://spdx.org/rdf/terms#match> "true" .
-_:B0ca8839bX2D454bX2D4922X2D95b9X2Dc46422514cf4 <http://spdx.org/rdf/terms#isWayBackLink> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-_:B0ca8839bX2D454bX2D4922X2D95b9X2Dc46422514cf4 <http://spdx.org/rdf/terms#isValid> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-_:B0ca8839bX2D454bX2D4922X2D95b9X2Dc46422514cf4 <http://spdx.org/rdf/terms#isLive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-_:B0ca8839bX2D454bX2D4922X2D95b9X2Dc46422514cf4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spdx.org/rdf/terms#CrossRef> .
+<http://spdx.org/licenses/APSL-1.1> <http://spdx.org/rdf/terms#crossRef> _:B4826382bX2De8caX2D4cddX2D83d9X2D2dd5b2264bfc .
+_:B4826382bX2De8caX2D4cddX2D83d9X2D2dd5b2264bfc <http://spdx.org/rdf/terms#timestamp> "2021-05-20 - 16:54:42" .
+_:B4826382bX2De8caX2D4cddX2D83d9X2D2dd5b2264bfc <http://spdx.org/rdf/terms#order> "0"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:B4826382bX2De8caX2D4cddX2D83d9X2D2dd5b2264bfc <http://spdx.org/rdf/terms#url> "http://www.opensource.apple.com/source/IOSerialFamily/IOSerialFamily-7/APPLE_LICENSE" .
+_:B4826382bX2De8caX2D4cddX2D83d9X2D2dd5b2264bfc <http://spdx.org/rdf/terms#match> "true" .
+_:B4826382bX2De8caX2D4cddX2D83d9X2D2dd5b2264bfc <http://spdx.org/rdf/terms#isWayBackLink> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:B4826382bX2De8caX2D4cddX2D83d9X2D2dd5b2264bfc <http://spdx.org/rdf/terms#isValid> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:B4826382bX2De8caX2D4cddX2D83d9X2D2dd5b2264bfc <http://spdx.org/rdf/terms#isLive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:B4826382bX2De8caX2D4cddX2D83d9X2D2dd5b2264bfc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spdx.org/rdf/terms#CrossRef> .
