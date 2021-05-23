@@ -1,7 +1,7 @@
 <<beginOptional>>Copyright and related rights are <<endOptional>> 
 Licensed under 
 <<beginOptional>>Section <<var;name="sectionNumber";original="2, 3, 4, 7, 8, 10, 12 and 13";match=".+">> of <<endOptional>>
-<<var;name="licenseName";original="Apache License";match=".+">> Version 1.0 (the "License");
+<<var;name="licenseName";original="Apache License";match=".+">> <<beginOptional>>Version 1.0 <<endOptional>> <<beginOptional>>(the "License"); <<endOptional>>
 <<beginOptional>>you may not use this file except in compliance with the License. <<endOptional>>
 <<beginOptional>>You may obtain a copy of the License at <<var;name="source";original="_____________";match=".+">> . <<endOptional>>
 <<beginOptional>>The License is based on the Mozilla Public License Version 1.1 but Sections 14 and 15 have been added to cover use of software over a computer network and provide for limited attribution for the Original Developer. In addition, Exhibit A has been modified to be consistent with Exhibit B.<<endOptional>>
