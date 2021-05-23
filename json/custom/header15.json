@@ -1,0 +1,9 @@
+{
+  "name": "Header 15",
+  "licenseText": "",
+  "standardLicenseHeader": "",
+  "standardLicenseTemplate": "<<beginOptional>>This program is free software; <<endOptional>>\nyou can redistribute it and/or modify it under the terms of the <<var;name=\"source\";original=\"Academic Free License\";match=\".+\">>.",
+  "standardLicenseHeaderTemplate": "",
+  "seeAlso": [],
+  "licenseId": "header15"
+}
