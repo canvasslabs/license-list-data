@@ -2,8 +2,8 @@
 Licensed under 
 <<beginOptional>>Section <<var;name="sectionNumber";original="2, 3, 4, 7, 8, 10, 12 and 13";match=".+">> of <<endOptional>>
 <<var;name="licenseName";original="Apache License";match=".+">> Version 1.0 (the "License");
-<<beginOptional>>you may not use this file except in compliance with the License. <<endOptional>> <<endOptional>>
-<<beginOptional>>You may obtain a copy of the License at <<var;name="source";original="_____________";match=".+">> .
+<<beginOptional>>you may not use this file except in compliance with the License. <<endOptional>>
+<<beginOptional>>You may obtain a copy of the License at <<var;name="source";original="_____________";match=".+">> . <<endOptional>>
 <<beginOptional>>The License is based on the Mozilla Public License Version 1.1 but Sections 14 and 15 have been added to cover use of software over a computer network and provide for limited attribution for the Original Developer. In addition, Exhibit A has been modified to be consistent with Exhibit B.<<endOptional>>
 
 <<beginOptional>>Unless required by applicable law or agreed to in writing, <<endOptional>><<beginOptional>>software<<endOptional>><<beginOptional>>, hardware and materials<<endOptional>> <<beginOptional>>distributed under the License is distributed on an "AS IS" basis, WITHOUT<<endOptional>> <<beginOptional>>WARRANTIES OR CONDITIONS<<endOptional>> <<beginOptional>>WARRANTY<<endOptional>> <<beginOptional>>OF ANY KIND, either express or implied<<endOptional>><<beginOptional>>, AND <<var;name="author";original="THE AUTHOR";match=".+">> HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT<<endOptional>>. 
