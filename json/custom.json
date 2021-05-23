@@ -2,7 +2,9 @@
   "licenseListVersion": "2082469",
   "licenses": [
     {
-      "reference": "http://www.sgi.com/software/opensource/glx/license.html",
+      "reference": [
+        "http://www.sgi.com/software/opensource/glx/license.html"
+      ],
       "name": "GLX Public License 1.0",
       "licenseId": "GLX-1.0",
       "seeAlso": [
@@ -25,6 +27,78 @@
       "reference": [],
       "name": "Header 14",
       "licenseId": "header14",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 15",
+      "licenseId": "header15",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 11",
+      "licenseId": "header11",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 10",
+      "licenseId": "header10",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 9",
+      "licenseId": "header9",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 4",
+      "licenseId": "header4",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 8",
+      "licenseId": "header8",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 3",
+      "licenseId": "header3",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 2",
+      "licenseId": "header2",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 6",
+      "licenseId": "header6",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 12",
+      "licenseId": "header12",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 7",
+      "licenseId": "header7",
+      "seeAlso": []
+    },
+    {
+      "reference": [],
+      "name": "Header 5",
+      "licenseId": "header5",
       "seeAlso": []
     }
   ],

@@ -1,9 +1,9 @@
 {
-  "licenseId": "header9",
-  "name": "",
+  "name": "Header 9",
   "licenseText": "",
   "standardLicenseHeader": "",
   "standardLicenseTemplate": "This work is distributed under the W3C\u00ae Software License in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
   "standardLicenseHeaderTemplate": "",
-  "seeAlso": []
+  "seeAlso": [],
+  "licenseId": "header9"
 }

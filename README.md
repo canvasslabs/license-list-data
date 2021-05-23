@@ -3,7 +3,7 @@
 ## To add new custom licenses
 1. Initialize custom json file:
 ```
-python update_license_json.py SHORTNAME init_custom {exc, lic} 
+python update_license_json.py -s SHORTNAME init_custom {exc, lic} 
 ```
 Fill in the short name of the license, and choose between "license"("lic") or "exception"("exc")
 2. Go to `json/SHORTNAME/` to see all the fields to fill in:\
@@ -22,17 +22,21 @@ Fill in the short name of the license, and choose between "license"("lic") or "e
    `seeAlso`: reference websites
    
 ***Note***: LID only reads `name`, `standardLicenseTemplate`, `licenseExceptionTemplate` and `seeAlso`.
-So if you don't add other fields, it will not affect LID.
+For header templates only `name` and `standardLicenseTemplate` are filled.
 
 3. After filling in all the fields, add custom json file:
 ```
-python update_license_json.py SHORTNAME add_custom
+python update_license_json.py -s SHORTNAME add_custom
+```
+Or you can update all added custom files at once:
+```
+python update_license_json.py add_custom
 ```
 
 ## To make adaptions to licenses:
 1. Initialize adaption json file:
 ```
-python update_license_json.py SHORTNAME init_adaption {exc, lic} [-E -T -H -L -T -S -N]
+python update_license_json.py -s SHORTNAME init_adaption {exc, lic} [-E -T -H -L -T -S -N]
 ```
 Fill in the short name of the license, and choose between "license"("lic") or "exception"("exc").
 Optional arguments are:\
@@ -45,10 +49,10 @@ For license:\
 You can choose the fields that you want to make adaptions to.
 example usage:
 ```
-python update_license_json.py SHORTNAME init_adaption lic -LHTNS
+python update_license_json.py -s SHORTNAME init_adaption lic -LHTNS
 ```
 ```
-python update_license_json.py SHORTNAME init_adaption lic -T
+python update_license_json.py -s SHORTNAME init_adaption lic -T
 ```
    for exceptions:\
    `-E`: `licenseExceptionText`: exception text\
@@ -57,17 +61,16 @@ python update_license_json.py SHORTNAME init_adaption lic -T
 You can choose the fields that you want to make adaptions to.
 example usage:
 ```
-python update_license_json.py SHORTNAME init_adaption exc -ETS
+python update_license_json.py -s SHORTNAME init_adaption exc -ETS
 ```
 ```
-python update_license_json.py SHORTNAME init_adaption exc -T
+python update_license_json.py -s SHORTNAME init_adaption exc -T
 ```
-***Note***: LID only reads `name`, `standardLicenseTemplate`, `licenseExceptionTemplate` and `seeAlso`.
-So if you don't change other fields, it will not affect LID.
+***Note***: `standardLicenseTemplate` or `licenseExceptionTemplate` will be forced to be initiated.
 
-2. After filling in all the fields, add adaption json file:
+2. After filling in all the fields, add adaption json file. Include the message for updating:
 ```
-python update_license_json.py SHORTNAME add_adaption {exc, lic}
+python update_license_json.py -s SHORTNAME add_adaption NOTE
 ```
 
 
