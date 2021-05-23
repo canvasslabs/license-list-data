@@ -29,29 +29,36 @@ def _init_file(path):
 
 
 def add_custom(shortname):
-    dic = {}
-    fpath = os.path.join(JSON_PATH, JSON_CUSTOM_PATH, shortname)
-    for field in JSON_LICENSE_FIELDS:
-        with open(os.path.join(fpath, field), 'r') as f:
-            if field == 'seeAlso':
-                field_text = f.read().splitlines()
-            else:
-                field_text = f.read()
-
-        dic[field] = field_text
-        for field, text in dic.items():
-            if type(text) is str:
-                dic[field] = text.strip()
-    if 'licenseText' in dic:
-        dic['licenseId'] = shortname
+    custom_path = os.path.join(JSON_PATH, JSON_CUSTOM_PATH)
+    if shortname is None:
+        shortname_list = os.listdir(custom_path)
+        shortname_list = [shortname for shortname in shortname_list if not shortname.endswith('.json')]
     else:
-        dic['licenseExceptionId'] = shortname
+        shortname_list = [shortname]
+    for shortname in shortname_list:
+        dic = {}
+        fpath = os.path.join(custom_path, shortname)
+        for field in JSON_LICENSE_FIELDS:
+            with open(os.path.join(fpath, field), 'r') as f:
+                if field == 'seeAlso':
+                    field_text = f.read().splitlines()
+                else:
+                    field_text = f.read()
 
-    _update_references(dic)
-    license_path = os.path.join(JSON_PATH, JSON_CUSTOM_PATH, shortname + '.json')
-    dic_text = json.dumps(dic, indent=2)
-    with open(license_path, 'w') as f:
-        f.write(dic_text)
+            dic[field] = field_text
+            for field, text in dic.items():
+                if type(text) is str:
+                    dic[field] = text.strip()
+        if 'licenseText' in dic:
+            dic['licenseId'] = shortname
+        else:
+            dic['licenseExceptionId'] = shortname
+
+        _update_references(dic)
+        license_path = os.path.join(JSON_PATH, JSON_CUSTOM_PATH, shortname + '.json')
+        dic_text = json.dumps(dic, indent=2)
+        with open(license_path, 'w') as f:
+            f.write(dic_text)
 
 
 def _update_references(fields):
@@ -77,6 +84,11 @@ def init_adaption(shortname, fields):
     is_exception = True if fields['is_exception'] == 'exc' else False
     json_fields = JSON_EXCEPTION_FIELDS if is_exception else JSON_LICENSE_FIELDS
     os.makedirs(fpath, exist_ok=True)
+    # force to init files
+    if is_exception:
+        fields['licenseExceptionTemplate'] = True
+    else:
+        fields['standardLicenseTemplate'] = True
     is_empty = True
     for field, has_field in fields.items():
         if field in json_fields and has_field:
@@ -90,8 +102,9 @@ def init_adaption(shortname, fields):
         print('Please specify field names for initialization.')
 
 
-def add_adaption(shortname, is_exception, note):
-    is_exception = True if is_exception == 'exc' else False
+def add_adaption(shortname, note):
+    fields = os.listdir(os.path.join(JSON_PATH, JSON_ADAPTION_PATH, shortname))
+    is_exception = True if 'licenseExceptionTemplate' in fields else False
     json_fields = JSON_EXCEPTION_FIELDS if is_exception else JSON_LICENSE_FIELDS
     json_license_path = JSON_EXCEPTION_PATH if is_exception else JSON_LICENSE_PATH
     fpath = os.path.join(JSON_PATH, json_license_path, shortname + '.json')
@@ -147,7 +160,7 @@ def _parse_args(args):
     #     choices=["init_custom", "add_custom", "init_adaption", "add_adaption"])
 
     parser.add_argument(
-        "shortname", help="short name of the license that needs to be updated",
+        "-s", "--shortname", help="short name of the license that needs to be updated",
         )
     subparsers = parser.add_subparsers(dest='mode', help='sub-command help', required=True)
 
@@ -192,12 +205,11 @@ def _parse_args(args):
         )
 
     parser_add_adaption = subparsers.add_parser('add_adaption', help='add field adaption')
-    subparsers_add_adaption = parser_add_adaption.add_subparsers(dest='is_exception', help='sub-command help', required=True)
-    parser_add_adaption_e = subparsers_add_adaption.add_parser('exc', help='add field adaption for exception')
-    parser_add_adaption_l = subparsers_add_adaption.add_parser('lic', help='add field adaption for license')
     parser_add_adaption.add_argument(
-        "-n", "--note", help="note", nargs=1
+        "note", help="note"
         )
+
+    # parser_init_adaption = subparsers.add_parser('add_all', help='add all changes of customs and adaptions')
     return parser.parse_args(args)
 
 def main():
@@ -209,7 +221,7 @@ def main():
     elif args.mode == "init_adaption":
         init_adaption(args.shortname, args._get_kwargs())
     elif args.mode == "add_adaption":
-        add_adaption(args.shortname, args.is_exception, args.note)
+        add_adaption(args.shortname, args.note)
 
 if __name__ == '__main__':
     main()
